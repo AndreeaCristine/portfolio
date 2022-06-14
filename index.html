@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> personal portfolio </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="images/eu.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <span class="hello">hello</span>
+        <h3> I'M <span>ANDREEA COSTACHE</span> </h3>
+        <p>I'm a front-end developer and UI/UX designer.
+            My passion for web development began one year and a half ago when I wanted to create my own business. I decided to create a website by myself, so I started my learning journey. I took some online courses and I decided that I want to be a web developer instead. I love to learn new things and the idea of creating something that people could benefit from felt satisfying. But I felt that something else was missing. Writing code was fun , but I felt that I needed to learn more. So I took a course for UI/UX design. And it was the best choice. I consider myself to be both a logical and a creative person. Recently, I also started to get some new skills in graphic design, but it's just a hobby.  
+        </p>
+        <p>If you want to know more about what I created so far, I invite you to take a look at my portfolio.</p>
+        <a href="#about" class="btn">about </a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about  </h1>
+
+    <div class="row">
+
+        <div class="box">
+            <h3 class="title">Coding skills</h3>
+            <div class="exp-box">
+                <h3>HTML/HTML5</h3>
+               
+            </div>
+            <div class="exp-box">
+                <h3>CSS/CSS3</h3>
+                
+            </div>
+            <div class="exp-box">
+                <h3>Javascript </h3>
+                
+            </div>
+            <div class="exp-box">
+                <h3>React </h3>
+                
+            </div>
+            <div class="exp-box">
+                <h3>SASS </h3>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">About my project design</h3>
+            <div class="exp-box">
+                <h3>Shoply</h3>
+                <p>With this design , I tried to cover everything that needs to be in a mobile app. It has an "Add to favorite " design, "Log In" form, "Add to cart" and pay with the credit cart. It also has a simple and friendly introduction.</p>
+                <p>The design was created with Figma.</p>
+            </div>
+        </div>
+            
+
+        <div class="box">
+            <h3 class="title">About my projects</h3>
+            <div class="exp-box">
+                <h3>Quiz</h3>
+                <p>I think the name suggests what this one is about. It's a  simple and short quiz with an API. This project is based more on Javascript .The background is from a Background generator app made by me. </p>
+            </div>
+            <div class="exp-box">
+                <h3>Shoply</h3>
+                <p>This is a shopping website with multiple pages. It  has a product information if you click on the first product from "Shop". It also contains a log in form.</p>
+            </div>
+            <div class="exp-box">
+                <h3>DeliDish</h3>
+                <p>This one is more complex. It has a functional cart. You need to select the products from the "Menu" and then check the cart to see them. You cand also add multiple products and you can delete them. It also has a search bar.</p>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="download">
+        <a href="cv complet.pdf" class="btn">Download cv
+        
+        </a>
+    </div>
+
+</section>
+
+<!-- service section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span>my</span> services </h1>
+
+    <div class="box-container">
+
+  
+        <div class="box">
+            <span class="number">1</span>
+            <img src="images/s2.png" alt="">
+            <h3>Graphic Design</h3>
+            <p> Creative content for online campaigns, print ads and websites.</p>
+        </div>
+
+        
+        <div class="box">
+            <span class="number">2</span>
+            <img src="images/s4.png" alt="">
+            <h3>Data Analysis</h3>
+            <p>Collecting important information using specialized tools.</p>
+        </div>
+
+        <div class="box">
+            <span class="number">3</span>
+            <img src="images/s5.png" alt="">
+            <h3>Front-End Development</h3>
+            <p>Developing responsive websites and implementing visual elements that users can see and interact with. </p>
+        </div>
+
+        <div class="box">
+            <span class="number">4</span>
+            <img src="images/s6.png" alt="">
+            <h3>UI/UX Design</h3>
+            <p>Creating the user interface for an app, website or other interactive media.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span>my</span> portfolio </h1>
+
+    <div class="button-container">
+        <div class="btn" data-filter="all">all</div>
+        <div class="btn" data-filter="design">design</div>
+        <div class="btn" data-filter="code">code</div>
+      
+    </div>
+
+    <div class="image-container">
+
+        <div class="box design">
+            <a href="https://andreeacristine.github.io/appdesign/">
+            <img src="images/design.png" alt="">
+            <div class="info">
+                <h3>Shoply-Design Application</h3>
+            </div>
+        </a>
+        </div>
+
+      
+
+        <div class="box code">
+        <a href="https://andreeacristine.github.io/restaurantt/">
+            <img src="images/delidish.png" alt="">
+            <div class="info">
+                <h3>Delidish-Restaurant website</h3>
+            </div>
+        </a>
+        </div>
+
+        <div class="box code">
+        <a href="https://andreeacristine.github.io/Shoply/">
+            <img src="images/shoply.png" alt="">
+            <div class="info">
+                <h3>Shoply-Ecommerce website</h3>
+            </div>
+
+        </a>
+        </div>
+
+        <div class="box  code">
+            <a href="https://andreeacristine.github.io/QuickQuiz/">
+            <img src="images/quiz.png" alt="">
+            <div class="info">
+                <h3>Quiz Project</h3>
+            </div>
+        </a>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- blog section start  -->
+
+
+<!-- blog section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span>me</span> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>+40725642248</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>costacheandreea2312@gmail.com</p>
+            
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>location</h3>
+            <p>Bucharest, Romania</p>
+        </div>
+
+        <div class="box">
+            <a href="https://www.linkedin.com/in/andreea-costache-275a7b240/" >
+                <i class="fa fa-linkedin"></i>
+                <h3>Linkedin</h3>
+            
+             </a>
+            
+        </div>
+
+        <div class="box">
+            <a href="https://github.com/AndreeaCristine">
+            <i class="fab fa-github"></i>
+            <h3>Github</h3>
+            </a>
+            
+        </div>
+
+
+
+    </div>
+
+   
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer">created by <a href="https://github.com/AndreeaCristine"><span> AndreeaCristine </span> </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
